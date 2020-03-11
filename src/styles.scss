@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+/* 1.- SETTINGS */
+@import "styles/settings/settings";
+
+/* 2.- TOOLS */
+@import "styles/tools/functions";
+@import "styles/tools/mixins";
+
+/* 3.- GENERIC */
+@import "styles/generic/generic";
+
+/* 4.- TAGS */
+// @import "styles/tags/"
+
+/* 5.- OBJETCS */
+/* Específico de cada componente Angular */
+
+/* 5.- COMPONENTS */
+/* Específico de cada componente Angular */
+
+/* 7.- UTILITIES */
+@import "styles/utilities/utilities";
