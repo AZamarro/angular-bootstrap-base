@@ -1,3 +1,6 @@
+/* 0.- BOOTSTRAP */
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 /* 1.- SETTINGS */
 @import "styles/settings/settings";
 
@@ -13,9 +16,11 @@
 
 /* 5.- OBJETCS */
 /* Específico de cada componente Angular */
+@import "styles/objects/objects";
 
 /* 5.- COMPONENTS */
 /* Específico de cada componente Angular */
+@import "styles/components/components";
 
 /* 7.- UTILITIES */
 @import "styles/utilities/utilities";

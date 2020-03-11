@@ -1,6 +1,6 @@
-// TODO Descomentar cuando funcione el @import de _components.scss
-
-/* .contenido {
+// TODO Arreglar el import y después eliminar el código
+/* @import "app/app.component.scss"; */
+.contenido {
     background-color: lightblue;
     @include make-row();
     &__articulo {
@@ -27,4 +27,4 @@
             @include make-col(2);
         }
     }
-} */
+}
